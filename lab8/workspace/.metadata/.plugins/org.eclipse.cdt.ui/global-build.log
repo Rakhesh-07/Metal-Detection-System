@@ -1,0 +1,23 @@
+Nothing to build in platform 'mb_lab8H_wrapper'
+
+11:57:41 **** Incremental Build of configuration Debug for project lab8_sw ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/EECE387/lab8/workspace/mb_lab8H_wrapper/export/mb_lab8H_wrapper/sw/mb_lab8H_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab8_sw.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/EECE387/lab8/workspace/mb_lab8H_wrapper/export/mb_lab8H_wrapper/sw/mb_lab8H_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab8_sw.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab8_sw.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab8_sw.elf  |tee "lab8_sw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9120	    268	   3124	  12512	   30e0	lab8_sw.elf
+'Finished building: lab8_sw.elf.size'
+' '
+11:57:42 **** Incremental Build of configuration Debug for project lab8_sw_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

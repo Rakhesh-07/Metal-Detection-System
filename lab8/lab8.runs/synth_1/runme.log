@@ -1,0 +1,508 @@
+
+*** Running vivado
+    with args -log mb_lab1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_lab1_wrapper.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source mb_lab1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 473.496 ; gain = 180.367
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/EECE387/ip_repo/test_ports_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/EECE387/ip_repo/alarm_timer_0_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental D:/EECE387/lab8/lab8.srcs/utils_1/imports/synth_1/mb_lab1_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/EECE387/lab8/lab8.srcs/utils_1/imports/synth_1/mb_lab1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top mb_lab1_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9040
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1348.344 ; gain = 440.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_wrapper' [D:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/hdl/mb_lab1_wrapper.vhd:35]
+INFO: [Synth 8-3491] module 'mb_lab1' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:2777' bound to instance 'mb_lab1_i' of component 'mb_lab1' [D:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/hdl/mb_lab1_wrapper.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:2801]
+INFO: [Synth 8-3491] module 'mb_lab1_alarm_timer_0_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_alarm_timer_0_0_stub.vhdl:6' bound to instance 'alarm_timer_0' of component 'mb_lab1_alarm_timer_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3376]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_alarm_timer_0_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_alarm_timer_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'mb_lab1_axi_gpio_0_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_0_0_stub.vhdl:6' bound to instance 'axi_gpio_0' of component 'mb_lab1_axi_gpio_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3400]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_axi_gpio_0_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'mb_lab1_axi_gpio_1_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_1_0_stub.vhdl:6' bound to instance 'axi_gpio_1' of component 'mb_lab1_axi_gpio_1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3424]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_axi_gpio_1_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_1_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_lab1_axi_gpio_2_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_2_0_stub.vhdl:6' bound to instance 'axi_gpio_2' of component 'mb_lab1_axi_gpio_2_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3447]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_axi_gpio_2_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_2_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'mb_lab1_axi_gpio_3_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_3_0_stub.vhdl:6' bound to instance 'axi_gpio_3' of component 'mb_lab1_axi_gpio_3_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3471]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_axi_gpio_3_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_gpio_3_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_lab1_axi_uartlite_0_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_uartlite_0_0_stub.vhdl:6' bound to instance 'axi_uartlite_0' of component 'mb_lab1_axi_uartlite_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3494]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_axi_uartlite_0_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_axi_uartlite_0_0_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'mb_lab1_clk_wiz_1_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_clk_wiz_1_0_stub.vhdl:6' bound to instance 'clk_wiz_1' of component 'mb_lab1_clk_wiz_1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3519]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_clk_wiz_1_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_clk_wiz_1_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'mb_lab1_mdm_1_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_mdm_1_0_stub.vhdl:6' bound to instance 'mdm_1' of component 'mb_lab1_mdm_1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3526]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_mdm_1_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_mdm_1_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'mb_lab1_microblaze_0_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_microblaze_0_0_stub.vhdl:6' bound to instance 'microblaze_0' of component 'mb_lab1_microblaze_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3539]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_microblaze_0_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_microblaze_0_0_stub.vhdl:64]
+INFO: [Synth 8-3491] module 'mb_lab1_microblaze_0_axi_intc_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_microblaze_0_axi_intc_0_stub.vhdl:6' bound to instance 'microblaze_0_axi_intc' of component 'mb_lab1_microblaze_0_axi_intc_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3625]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_microblaze_0_axi_intc_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_microblaze_0_axi_intc_0_stub.vhdl:37]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_microblaze_0_axi_periph_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1696]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_1VJQ4XL' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_1VJQ4XL' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_WEZNSQ' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:159]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_WEZNSQ' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_AWN0LA' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:260]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_AWN0LA' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_18N93P9' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:361]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_18N93P9' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:361]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_ZNBWS6' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:462]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_ZNBWS6' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:462]
+INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_26J0FP' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:563]
+INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_26J0FP' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:563]
+INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_NDTCHD' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:668]
+INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_NDTCHD' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:668]
+INFO: [Synth 8-638] synthesizing module 'm07_couplers_imp_1MSD06Q' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:779]
+INFO: [Synth 8-256] done synthesizing module 'm07_couplers_imp_1MSD06Q' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:779]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_W9PJHH' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1448]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_W9PJHH' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1448]
+INFO: [Synth 8-3491] module 'mb_lab1_xbar_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'mb_lab1_xbar_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:2606]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_xbar_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_xbar_0_stub.vhdl:52]
+INFO: [Synth 8-256] done synthesizing module 'mb_lab1_microblaze_0_axi_periph_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1696]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_MBI0NT' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:869]
+INFO: [Synth 8-3491] module 'mb_lab1_dlmb_bram_if_cntlr_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_dlmb_bram_if_cntlr_0_stub.vhdl:6' bound to instance 'dlmb_bram_if_cntlr' of component 'mb_lab1_dlmb_bram_if_cntlr_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1083]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_dlmb_bram_if_cntlr_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_dlmb_bram_if_cntlr_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_lab1_dlmb_v10_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_dlmb_v10_0_stub.vhdl:6' bound to instance 'dlmb_v10' of component 'mb_lab1_dlmb_v10_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1137]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_dlmb_v10_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_dlmb_v10_0_stub.vhdl:37]
+INFO: [Synth 8-3491] module 'mb_lab1_ilmb_bram_if_cntlr_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_ilmb_bram_if_cntlr_0_stub.vhdl:6' bound to instance 'ilmb_bram_if_cntlr' of component 'mb_lab1_ilmb_bram_if_cntlr_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1165]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_ilmb_bram_if_cntlr_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_ilmb_bram_if_cntlr_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_lab1_ilmb_v10_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_ilmb_v10_0_stub.vhdl:6' bound to instance 'ilmb_v10' of component 'mb_lab1_ilmb_v10_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1219]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_ilmb_v10_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_ilmb_v10_0_stub.vhdl:37]
+INFO: [Synth 8-3491] module 'mb_lab1_lmb_bram_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_lmb_bram_0_stub.vhdl:6' bound to instance 'lmb_bram' of component 'mb_lab1_lmb_bram_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:1247]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_lmb_bram_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_lmb_bram_0_stub.vhdl:28]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_MBI0NT' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:869]
+INFO: [Synth 8-3491] module 'mb_lab1_microblaze_0_xlconcat_0' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_xlconcat_0/synth/mb_lab1_microblaze_0_xlconcat_0.v:53' bound to instance 'microblaze_0_xlconcat' of component 'mb_lab1_microblaze_0_xlconcat_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3860]
+INFO: [Synth 8-6157] synthesizing module 'mb_lab1_microblaze_0_xlconcat_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_xlconcat_0/synth/mb_lab1_microblaze_0_xlconcat_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_5_xlconcat' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/147b/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_5_xlconcat' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/147b/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'mb_lab1_microblaze_0_xlconcat_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_xlconcat_0/synth/mb_lab1_microblaze_0_xlconcat_0.v:53]
+INFO: [Synth 8-3491] module 'mb_lab1_rst_clk_wiz_1_100M_0' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_rst_clk_wiz_1_100M_0_stub.vhdl:6' bound to instance 'rst_clk_wiz_1_100M' of component 'mb_lab1_rst_clk_wiz_1_100M_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3866]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_rst_clk_wiz_1_100M_0' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_rst_clk_wiz_1_100M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'mb_lab1_test_ports_0_1' declared at 'D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_test_ports_0_1_stub.vhdl:6' bound to instance 'test_ports_0' of component 'mb_lab1_test_ports_0_1' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3879]
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_test_ports_0_1' [D:/EECE387/lab8/lab8.runs/synth_1/.Xil/Vivado-12312-LAPTOP-E2JHT7HK/realtime/mb_lab1_test_ports_0_1_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'mb_lab1_xlconcat_0_0' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlconcat_0_0/synth/mb_lab1_xlconcat_0_0.v:53' bound to instance 'xlconcat_0' of component 'mb_lab1_xlconcat_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3904]
+INFO: [Synth 8-6157] synthesizing module 'mb_lab1_xlconcat_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlconcat_0_0/synth/mb_lab1_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_5_xlconcat__parameterized0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/147b/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_5_xlconcat__parameterized0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/147b/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'mb_lab1_xlconcat_0_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlconcat_0_0/synth/mb_lab1_xlconcat_0_0.v:53]
+INFO: [Synth 8-3491] module 'mb_lab1_xlslice_0_0' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_0_0/synth/mb_lab1_xlslice_0_0.v:53' bound to instance 'xlslice_0' of component 'mb_lab1_xlslice_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3912]
+INFO: [Synth 8-6157] synthesizing module 'mb_lab1_xlslice_0_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_0_0/synth/mb_lab1_xlslice_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_3_xlslice' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_3_xlslice' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'mb_lab1_xlslice_0_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_0_0/synth/mb_lab1_xlslice_0_0.v:53]
+INFO: [Synth 8-3491] module 'mb_lab1_xlslice_1_0' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_1_0/synth/mb_lab1_xlslice_1_0.v:53' bound to instance 'xlslice_1' of component 'mb_lab1_xlslice_1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3917]
+INFO: [Synth 8-6157] synthesizing module 'mb_lab1_xlslice_1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_1_0/synth/mb_lab1_xlslice_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_3_xlslice__parameterized0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_3_xlslice__parameterized0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'mb_lab1_xlslice_1_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_1_0/synth/mb_lab1_xlslice_1_0.v:53]
+INFO: [Synth 8-3491] module 'mb_lab1_xlslice_2_0' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_2_0/synth/mb_lab1_xlslice_2_0.v:53' bound to instance 'xlslice_2' of component 'mb_lab1_xlslice_2_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:3922]
+INFO: [Synth 8-6157] synthesizing module 'mb_lab1_xlslice_2_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_2_0/synth/mb_lab1_xlslice_2_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_3_xlslice__parameterized1' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_3_xlslice__parameterized1' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'mb_lab1_xlslice_2_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xlslice_2_0/synth/mb_lab1_xlslice_2_0.v:53]
+INFO: [Synth 8-256] done synthesizing module 'mb_lab1' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/synth/mb_lab1.vhd:2801]
+INFO: [Synth 8-256] done synthesizing module 'mb_lab1_wrapper' (0#1) [D:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/hdl/mb_lab1_wrapper.vhd:35]
+WARNING: [Synth 8-7129] Port Din[7] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[6] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[5] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[4] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[3] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module xlslice_v1_0_3_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[7] in module xlslice_v1_0_3_xlslice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[6] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[5] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[4] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[3] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[0] in module xlslice_v1_0_3_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In63[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In64[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In65[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In66[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In67[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In68[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In69[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In70[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In71[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In72[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In73[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In74[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In75[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In78[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In79[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In80[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In81[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In87[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In88[0] in module xlconcat_v2_1_5_xlconcat__parameterized0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1473.012 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_0/mb_lab1_microblaze_0_0/mb_lab1_microblaze_0_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_0/mb_lab1_microblaze_0_0/mb_lab1_microblaze_0_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_uartlite_0_0/mb_lab1_axi_uartlite_0_0/mb_lab1_axi_uartlite_0_0_in_context.xdc] for cell 'mb_lab1_i/axi_uartlite_0'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_uartlite_0_0/mb_lab1_axi_uartlite_0_0/mb_lab1_axi_uartlite_0_0_in_context.xdc] for cell 'mb_lab1_i/axi_uartlite_0'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_dlmb_v10_0/mb_lab1_dlmb_v10_0/mb_lab1_dlmb_v10_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_dlmb_v10_0/mb_lab1_dlmb_v10_0/mb_lab1_dlmb_v10_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_ilmb_v10_0/mb_lab1_ilmb_v10_0/mb_lab1_dlmb_v10_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_ilmb_v10_0/mb_lab1_ilmb_v10_0/mb_lab1_dlmb_v10_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_dlmb_bram_if_cntlr_0/mb_lab1_dlmb_bram_if_cntlr_0/mb_lab1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_dlmb_bram_if_cntlr_0/mb_lab1_dlmb_bram_if_cntlr_0/mb_lab1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_ilmb_bram_if_cntlr_0/mb_lab1_ilmb_bram_if_cntlr_0/mb_lab1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_ilmb_bram_if_cntlr_0/mb_lab1_ilmb_bram_if_cntlr_0/mb_lab1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_lmb_bram_0/mb_lab1_lmb_bram_0/mb_lab1_lmb_bram_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_lmb_bram_0/mb_lab1_lmb_bram_0/mb_lab1_lmb_bram_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xbar_0/mb_lab1_xbar_0/mb_lab1_xbar_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_xbar_0/mb_lab1_xbar_0/mb_lab1_xbar_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_axi_intc_0/mb_lab1_microblaze_0_axi_intc_0/mb_lab1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_axi_intc'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_microblaze_0_axi_intc_0/mb_lab1_microblaze_0_axi_intc_0/mb_lab1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'mb_lab1_i/microblaze_0_axi_intc'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_mdm_1_0/mb_lab1_mdm_1_0/mb_lab1_mdm_1_0_in_context.xdc] for cell 'mb_lab1_i/mdm_1'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_mdm_1_0/mb_lab1_mdm_1_0/mb_lab1_mdm_1_0_in_context.xdc] for cell 'mb_lab1_i/mdm_1'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0_in_context.xdc] for cell 'mb_lab1_i/clk_wiz_1'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0_in_context.xdc] for cell 'mb_lab1_i/clk_wiz_1'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_rst_clk_wiz_1_100M_0/mb_lab1_rst_clk_wiz_1_100M_0/mb_lab1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'mb_lab1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_rst_clk_wiz_1_100M_0/mb_lab1_rst_clk_wiz_1_100M_0/mb_lab1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'mb_lab1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_0_0/mb_lab1_axi_gpio_0_0/mb_lab1_axi_gpio_0_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_0'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_0_0/mb_lab1_axi_gpio_0_0/mb_lab1_axi_gpio_0_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_0'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_1_0/mb_lab1_axi_gpio_1_0/mb_lab1_axi_gpio_1_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_1'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_1_0/mb_lab1_axi_gpio_1_0/mb_lab1_axi_gpio_1_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_1'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_2_0/mb_lab1_axi_gpio_2_0/mb_lab1_axi_gpio_2_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_2'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_2_0/mb_lab1_axi_gpio_2_0/mb_lab1_axi_gpio_2_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_2'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_3_0/mb_lab1_axi_gpio_3_0/mb_lab1_axi_gpio_3_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_3'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_axi_gpio_3_0/mb_lab1_axi_gpio_3_0/mb_lab1_axi_gpio_3_0_in_context.xdc] for cell 'mb_lab1_i/axi_gpio_3'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_alarm_timer_0_0/mb_lab1_alarm_timer_0_0/mb_lab1_alarm_timer_0_0_in_context.xdc] for cell 'mb_lab1_i/alarm_timer_0'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_alarm_timer_0_0/mb_lab1_alarm_timer_0_0/mb_lab1_alarm_timer_0_0_in_context.xdc] for cell 'mb_lab1_i/alarm_timer_0'
+Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_test_ports_0_1/mb_lab1_test_ports_0_1/mb_lab1_test_ports_0_1_in_context.xdc] for cell 'mb_lab1_i/test_ports_0'
+Finished Parsing XDC File [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_test_ports_0_1/mb_lab1_test_ports_0_1/mb_lab1_test_ports_0_1_in_context.xdc] for cell 'mb_lab1_i/test_ports_0'
+Parsing XDC File [D:/EECE387/lab8/lab8.srcs/constrs_1/imports/lab1/lab1.xdc]
+Finished Parsing XDC File [D:/EECE387/lab8/lab8.srcs/constrs_1/imports/lab1/lab1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/EECE387/lab8/lab8.srcs/constrs_1/imports/lab1/lab1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_lab1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mb_lab1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/EECE387/lab8/lab8.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/EECE387/lab8/lab8.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1473.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1473.012 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_lab1_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0/mb_lab1_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/axi_uartlite_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_axi_intc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/microblaze_0_xlconcat. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/mdm_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/clk_wiz_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/axi_gpio_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/axi_gpio_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/xlslice_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/xlslice_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/xlconcat_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/axi_gpio_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/alarm_timer_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/xlslice_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mb_lab1_i/test_ports_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |mb_lab1_xbar_0                  |         1|
+|2     |mb_lab1_alarm_timer_0_0         |         1|
+|3     |mb_lab1_axi_gpio_0_0            |         1|
+|4     |mb_lab1_axi_gpio_1_0            |         1|
+|5     |mb_lab1_axi_gpio_2_0            |         1|
+|6     |mb_lab1_axi_gpio_3_0            |         1|
+|7     |mb_lab1_axi_uartlite_0_0        |         1|
+|8     |mb_lab1_clk_wiz_1_0             |         1|
+|9     |mb_lab1_mdm_1_0                 |         1|
+|10    |mb_lab1_microblaze_0_0          |         1|
+|11    |mb_lab1_microblaze_0_axi_intc_0 |         1|
+|12    |mb_lab1_rst_clk_wiz_1_100M_0    |         1|
+|13    |mb_lab1_test_ports_0_1          |         1|
+|14    |mb_lab1_dlmb_bram_if_cntlr_0    |         1|
+|15    |mb_lab1_dlmb_v10_0              |         1|
+|16    |mb_lab1_ilmb_bram_if_cntlr_0    |         1|
+|17    |mb_lab1_ilmb_v10_0              |         1|
+|18    |mb_lab1_lmb_bram_0              |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------------+------+
+|      |Cell                                 |Count |
++------+-------------------------------------+------+
+|1     |mb_lab1_alarm_timer_0_0_bbox         |     1|
+|2     |mb_lab1_axi_gpio_0_0_bbox            |     1|
+|3     |mb_lab1_axi_gpio_1_0_bbox            |     1|
+|4     |mb_lab1_axi_gpio_2_0_bbox            |     1|
+|5     |mb_lab1_axi_gpio_3_0_bbox            |     1|
+|6     |mb_lab1_axi_uartlite_0_0_bbox        |     1|
+|7     |mb_lab1_clk_wiz_1_0_bbox             |     1|
+|8     |mb_lab1_dlmb_bram_if_cntlr_0_bbox    |     1|
+|9     |mb_lab1_dlmb_v10_0_bbox              |     1|
+|10    |mb_lab1_ilmb_bram_if_cntlr_0_bbox    |     1|
+|11    |mb_lab1_ilmb_v10_0_bbox              |     1|
+|12    |mb_lab1_lmb_bram_0_bbox              |     1|
+|13    |mb_lab1_mdm_1_0_bbox                 |     1|
+|14    |mb_lab1_microblaze_0_0_bbox          |     1|
+|15    |mb_lab1_microblaze_0_axi_intc_0_bbox |     1|
+|16    |mb_lab1_rst_clk_wiz_1_100M_0_bbox    |     1|
+|17    |mb_lab1_test_ports_0_1_bbox          |     1|
+|18    |mb_lab1_xbar_0_bbox                  |     1|
+|19    |IBUF                                 |    23|
+|20    |OBUF                                 |    37|
++------+-------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1473.012 ; gain = 565.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1473.012 ; gain = 565.633
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1473.012 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1473.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 3a51ec98
+INFO: [Common 17-83] Releasing license: Synthesis
+112 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1473.012 ; gain = 960.039
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1473.012 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/EECE387/lab8/lab8.runs/synth_1/mb_lab1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mb_lab1_wrapper_utilization_synth.rpt -pb mb_lab1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 26 11:38:42 2024...

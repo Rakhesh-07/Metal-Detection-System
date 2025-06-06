@@ -1,0 +1,1140 @@
+TRACE::2024-04-03.22:45:09::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:09::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:09::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:09::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:09::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:09::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-03.22:45:10::SCWPlatform::Opened new HwDB with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-04-03.22:45:10::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper"
+		}]
+}
+TRACE::2024-04-03.22:45:10::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-04-03.22:45:10::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-04-03.22:45:10::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper"
+		}]
+}
+TRACE::2024-04-03.22:45:10::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper"
+		}]
+}
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:10::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:10::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:10::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-03.22:45:10::SCWMssOS::No sw design opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::mss does not exists at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::Creating sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::Adding the swdes entry, created swdb D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::updating the scw layer changes to swdes at   D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::Writing mss at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:10::SCWMssOS::Completed writing the mss file at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-03.22:45:10::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-04-03.22:45:10::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-04-03.22:45:10::SCWMssOS::Completed writing the mss file at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-03.22:45:10::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-04-03.22:45:27::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-03.22:45:27::SCWMssOS::Writing the mss file completed D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::Commit changes completed.
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"ae2f85ab520c45c2e336f143c0a6bb4a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-03.22:45:27::SCWPlatform::Started generating the artifacts platform mb_lab8H_wrapper
+TRACE::2024-04-03.22:45:27::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-03.22:45:27::SCWPlatform::Started generating the artifacts for system configuration mb_lab8H_wrapper
+LOG::2024-04-03.22:45:27::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-03.22:45:27::SCWSystem::Not a boot domain 
+LOG::2024-04-03.22:45:27::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-03.22:45:27::SCWDomain::Generating domain artifcats
+TRACE::2024-04-03.22:45:27::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-03.22:45:27::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::Completed writing the mss file at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-03.22:45:27::SCWMssOS::Mss edits present, copying mssfile into export location D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-03.22:45:27::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-03.22:45:27::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-04-03.22:45:27::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-03.22:45:27::SCWMssOS::Copying to export directory.
+TRACE::2024-04-03.22:45:27::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-03.22:45:27::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-03.22:45:27::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-03.22:45:27::SCWSystem::Completed Processing the sysconfig mb_lab8H_wrapper
+LOG::2024-04-03.22:45:27::SCWPlatform::Completed generating the artifacts for system configuration mb_lab8H_wrapper
+TRACE::2024-04-03.22:45:27::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-03.22:45:27::SCWSystem::Writing the bif file for system config mb_lab8H_wrapper
+TRACE::2024-04-03.22:45:27::SCWSystem::dir created 
+TRACE::2024-04-03.22:45:27::SCWSystem::Writing the bif 
+TRACE::2024-04-03.22:45:27::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-03.22:45:27::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-03.22:45:27::SCWPlatform::Completed generating the platform
+TRACE::2024-04-03.22:45:27::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-03.22:45:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-03.22:45:27::SCWMssOS::Commit changes completed.
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:27::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:27::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:27::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"ae2f85ab520c45c2e336f143c0a6bb4a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-03.22:45:27::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-03.22:45:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-03.22:45:29::SCWMssOS::Commit changes completed.
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"ae2f85ab520c45c2e336f143c0a6bb4a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-03.22:45:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-03.22:45:29::SCWMssOS::Commit changes completed.
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"ae2f85ab520c45c2e336f143c0a6bb4a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-03.22:45:29::SCWPlatform::Started generating the artifacts platform mb_lab8H_wrapper
+TRACE::2024-04-03.22:45:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-03.22:45:29::SCWPlatform::Started generating the artifacts for system configuration mb_lab8H_wrapper
+LOG::2024-04-03.22:45:29::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-03.22:45:29::SCWDomain::Generating domain artifcats
+TRACE::2024-04-03.22:45:29::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-03.22:45:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::Completed writing the mss file at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-03.22:45:29::SCWMssOS::Mss edits present, copying mssfile into export location D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-03.22:45:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-03.22:45:29::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-03.22:45:29::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-03.22:45:29::SCWMssOS::Copying to export directory.
+TRACE::2024-04-03.22:45:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-03.22:45:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-03.22:45:29::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-03.22:45:29::SCWSystem::Completed Processing the sysconfig mb_lab8H_wrapper
+LOG::2024-04-03.22:45:29::SCWPlatform::Completed generating the artifacts for system configuration mb_lab8H_wrapper
+TRACE::2024-04-03.22:45:29::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-03.22:45:29::SCWSystem::Writing the bif file for system config mb_lab8H_wrapper
+TRACE::2024-04-03.22:45:29::SCWSystem::dir created 
+TRACE::2024-04-03.22:45:29::SCWSystem::Writing the bif 
+TRACE::2024-04-03.22:45:29::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-03.22:45:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-03.22:45:29::SCWPlatform::Completed generating the platform
+TRACE::2024-04-03.22:45:29::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-03.22:45:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-03.22:45:29::SCWMssOS::Commit changes completed.
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-03.22:45:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Opened existing hwdb mb_lab1_wrapper_0
+TRACE::2024-04-03.22:45:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-03.22:45:29::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-03.22:45:29::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-03.22:45:29::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"ae2f85ab520c45c2e336f143c0a6bb4a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-03.22:45:29::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened new HwDB with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWReader::Active system found as  mb_lab8H_wrapper
+TRACE::2024-04-04.10:52:42::SCWReader::Handling sysconfig mb_lab8H_wrapper
+TRACE::2024-04-04.10:52:42::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:42::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-04.10:52:42::SCWMssOS::No sw design opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::mss exists loading the mss file  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::Opened the sw design from mss  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::Adding the swdes entry D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-04.10:52:42::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-04.10:52:42::SCWMssOS::Opened the sw design.  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.10:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.10:52:42::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.10:52:42::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-04.10:52:42::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:42::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.10:52:42::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWReader::No isolation master present  
+LOG::2024-04-04.10:52:42::SCWPlatform::Started generating the artifacts platform mb_lab8H_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.10:52:42::SCWPlatform::Started generating the artifacts for system configuration mb_lab8H_wrapper
+LOG::2024-04-04.10:52:42::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.10:52:42::SCWSystem::Not a boot domain 
+LOG::2024-04-04.10:52:42::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.10:52:42::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.10:52:42::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.10:52:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:42::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:42::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.10:52:42::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::Completed writing the mss file at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.10:52:42::SCWMssOS::Mss edits present, copying mssfile into export location D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.10:52:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.10:52:42::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.10:52:42::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-04.10:52:42::SCWMssOS::System Command Ran  D: & cd  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-04.10:52:43::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/alarm_timer_v1_0/src"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::make -C microblaze_0/libsrc/alarm_timer_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-04-04.10:52:43::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-04-04.10:52:43::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.10:52:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-04-04.10:52:43::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.10:52:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-04-04.10:52:43::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_10/src"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.10:52:43::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-04-04.10:52:43::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2024-04-04.10:52:43::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.10:52:43::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-04-04.10:52:43::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/test_ports_v1_0/src"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::make -C microblaze_0/libsrc/test_ports_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.10:52:45::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-04-04.10:52:45::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.10:52:45::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-04-04.10:52:45::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::"Running Make libs in microblaze_0/libsrc/alarm_timer_v1_0/src"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::make -C microblaze_0/libsrc/alarm_timer_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.10:52:45::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-04-04.10:52:45::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:45::SCWMssOS::"Compiling alarm_timer..."
+
+TRACE::2024-04-04.10:52:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/test_ports_v1_0/src"
+
+TRACE::2024-04-04.10:52:49::SCWMssOS::make -C microblaze_0/libsrc/test_ports_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.10:52:49::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-04-04.10:52:49::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:49::SCWMssOS::"Compiling test_ports..."
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/alarm_timer_v1_0/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/alarm_timer_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-04-04.10:52:50::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-04-04.10:52:50::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.10:52:50::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-04-04.10:52:50::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.10:52:50::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-04-04.10:52:50::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_10/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.10:52:50::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-04-04.10:52:50::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.10:52:50::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-04-04.10:52:50::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/test_ports_v1_0/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/test_ports_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.10:52:50::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-04-04.10:52:50::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.10:52:50::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-04-04.10:52:50::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.10:52:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-04-04.10:52:50::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.10:52:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-04-04.10:52:50::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_10/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-04.10:52:50::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2024-04-04.10:52:50::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.10:52:50::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-04-04.10:52:50::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2024-04-04.10:52:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.10:52:50::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-04-04.10:52:50::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-04.10:52:53::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-04.10:52:53::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-04.10:52:53::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-04.10:52:53::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-04.10:52:53::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-04.10:52:53::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-04.10:52:53::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-04.10:52:53::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-04.10:52:53::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-04.10:52:53::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-04.10:52:53::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-04.10:52:53::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-04.10:52:53::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-04-04.10:52:53::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-04-04.10:52:53::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-04-04.10:52:53::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-04-04.10:52:53::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2024-04-04.10:52:53::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xuartlite.o m
+TRACE::2024-04-04.10:52:53::SCWMssOS::icroblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selft
+TRACE::2024-04-04.10:52:53::SCWMssOS::est.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.10:52:53::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.10:52:53::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.10:52:53::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.10:52:53::SCWSystem::Completed Processing the sysconfig mb_lab8H_wrapper
+LOG::2024-04-04.10:52:53::SCWPlatform::Completed generating the artifacts for system configuration mb_lab8H_wrapper
+TRACE::2024-04-04.10:52:53::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.10:52:53::SCWSystem::Writing the bif file for system config mb_lab8H_wrapper
+TRACE::2024-04-04.10:52:53::SCWSystem::dir created 
+TRACE::2024-04-04.10:52:53::SCWSystem::Writing the bif 
+TRACE::2024-04-04.10:52:53::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.10:52:53::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.10:52:53::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.10:52:53::SCWMssOS::Saving the mss changes D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.10:52:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.10:52:53::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.10:52:53::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:53::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:53::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:53::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:53::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:53::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:53::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:53::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:53::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:53::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.10:52:53::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:53::SCWWriter::formatted JSON is {
+	"platformName":	"mb_lab8H_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_lab8H_wrapper",
+	"platHandOff":	"D:/EECE387/lab8/mb_lab8H_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_lab8H_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_lab8H_wrapper",
+	"systems":	[{
+			"systemName":	"mb_lab8H_wrapper",
+			"systemDesc":	"mb_lab8H_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_lab8H_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"ae2f85ab520c45c2e336f143c0a6bb4a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.10:52:53::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.10:52:56::SCWPlatform::Trying to open the hw design at D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:56::SCWPlatform::DSA given D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:56::SCWPlatform::DSA absoulate path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:56::SCWPlatform::DSA directory D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw
+TRACE::2024-04-04.10:52:56::SCWPlatform:: Platform Path D:/EECE387/lab8/workspace/mb_lab8H_wrapper/hw/mb_lab8H_wrapper.xsa
+TRACE::2024-04-04.10:52:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.10:52:56::SCWPlatform::Trying to set the existing hwdb with name mb_lab1_wrapper
+TRACE::2024-04-04.10:52:56::SCWPlatform::Opened existing hwdb mb_lab1_wrapper
+TRACE::2024-04-04.10:52:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.10:52:56::SCWMssOS::Checking the sw design at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.10:52:56::SCWMssOS::DEBUG:  swdes dump  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.10:52:56::SCWMssOS::Sw design exists and opened at  D:/EECE387/lab8/workspace/mb_lab8H_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

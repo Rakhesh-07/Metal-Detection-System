@@ -1,0 +1,263 @@
+
+*** Running vivado
+    with args -log mb_lab1_test_ports_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_lab1_test_ports_0_1.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source mb_lab1_test_ports_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 472.879 ; gain = 179.062
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/EECE387/ip_repo/test_ports_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/EECE387/ip_repo/alarm_timer_0_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_lab1_test_ports_0_1
+Command: synth_design -top mb_lab1_test_ports_0_1 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8096
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1315.996 ; gain = 439.254
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mb_lab1_test_ports_0_1' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_test_ports_0_1/synth/mb_lab1_test_ports_0_1.vhd:83]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'test_ports_v1_0' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:5' bound to instance 'U0' of component 'test_ports_v1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_test_ports_0_1/synth/mb_lab1_test_ports_0_1.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'test_ports_v1_0' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:49]
+WARNING: [Synth 8-5640] Port 'b' is missing in component declaration [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'sw' is missing in component declaration [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'btn' is missing in component declaration [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:52]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'test_ports_v1_0_S00_AXI' declared at 'd:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:5' bound to instance 'test_ports_v1_0_S00_AXI_inst' of component 'test_ports_v1_0_S00_AXI' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'test_ports_v1_0_S00_AXI' [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:89]
+INFO: [Synth 8-226] default block is never used [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:238]
+INFO: [Synth 8-226] default block is never used [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:368]
+WARNING: [Synth 8-614] signal 'cntr' is read in the process but is not in the sensitivity list [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:363]
+INFO: [Synth 8-256] done synthesizing module 'test_ports_v1_0_S00_AXI' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'test_ports_v1_0' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'mb_lab1_test_ports_0_1' (0#1) [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ip/mb_lab1_test_ports_0_1/synth/mb_lab1_test_ports_0_1.vhd:83]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [d:/EECE387/lab8/lab8.gen/sources_1/bd/mb_lab1/ipshared/45f2/hdl/test_ports_v1_0_S00_AXI.vhd:231]
+WARNING: [Synth 8-7129] Port b in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module test_ports_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1430.406 ; gain = 553.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1430.406 ; gain = 553.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1430.406 ; gain = 553.664
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1430.406 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1536.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1536.898 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module mb_lab1_test_ports_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module mb_lab1_test_ports_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module mb_lab1_test_ports_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module mb_lab1_test_ports_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module mb_lab1_test_ports_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module mb_lab1_test_ports_0_1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |     2|
+|3     |LUT2   |     2|
+|4     |LUT3   |     3|
+|5     |LUT4   |    18|
+|6     |LUT6   |    36|
+|7     |FDRE   |   170|
+|8     |FDSE   |     3|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1536.898 ; gain = 660.156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 1536.898 ; gain = 553.664
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1536.898 ; gain = 660.156
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1536.898 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1536.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 2166dad3
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 1536.898 ; gain = 1052.129
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1536.898 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/EECE387/lab8/lab8.runs/mb_lab1_test_ports_0_1_synth_1/mb_lab1_test_ports_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_lab1_test_ports_0_1, cache-ID = 2a8822788d544fd7
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1536.898 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/EECE387/lab8/lab8.runs/mb_lab1_test_ports_0_1_synth_1/mb_lab1_test_ports_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mb_lab1_test_ports_0_1_utilization_synth.rpt -pb mb_lab1_test_ports_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 26 11:37:43 2024...
